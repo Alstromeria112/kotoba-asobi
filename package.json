@@ -1,0 +1,25 @@
+{
+  "name": "kotoba-asobi",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "node --env-file=.env src/index.js",
+    "format": "prettier --write .",
+    "push-commands": "node --env-file=.env src/commands-manager.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.19.1",
+    "@snazzah/davey": "^0.1.10",
+    "bufferutil": "^4.1.0",
+    "discord.js": "^14.25.1",
+    "ffmpeg-static": "^5.3.0",
+    "zlib-sync": "^0.1.10"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.7.1",
+    "prettier": "^3.8.1",
+    "prettier-plugin-jsdoc": "^1.8.0"
+  }
+}
